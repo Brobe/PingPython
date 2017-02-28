@@ -103,7 +103,6 @@ def help():
 def readFromFile():
     with open('ips.txt') as f:
         lines = f.readlines()
-        return
 
 
 
