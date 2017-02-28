@@ -100,8 +100,6 @@ def run():
         print("There is nothing to print")
         return
     print("Quit to main menu by typing quit, q, back or b")
-
-
     def doit():
         t = threading.currentThread()
         i = 0
@@ -121,7 +119,7 @@ def run():
 
     runshit = True
     while runshit:
-        inn =input()
+        inn = input()
         if inn == "quit" or inn == "q" or inn == "back" or inn == "b":
             thread.do_run = False
             thread.join()
