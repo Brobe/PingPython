@@ -86,6 +86,11 @@ def help():
 
           "Run\t\t-\tThis will run the ping loop and notify when getting a 'timeout' or a long ping delay\n"
                                "run, r\n\n"
+          "Read from File\t-\tReads from ips.txt\n"
+          "readfromfile, read, rf, f\n\n"
+
+          "Save to File\t-\tSave to ips.txt\n"
+          "savetofile, save, sf, s\n\n"
 
           "Help\t-\tPrints this manual\n"
                                "help, h\n \n"
@@ -95,6 +100,15 @@ def help():
           "-back or -b will bring you to the start of the program.\n"
           "---------------------------------------------------------------------------------------------------\n")
 
+def readFromFile():
+    with open('ips.txt') as f:
+        lines = f.readlines()
+
+
+def saveToFile():
+    return
+
+# not complete, need status
 def run():
     if len(pinglist) <= 0:
         print("There is nothing to print")
