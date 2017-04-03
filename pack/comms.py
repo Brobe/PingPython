@@ -102,9 +102,8 @@ def help():
 
 def readFromFile():
     with open('ips.txt') as f:
-        lines = f.readlines()
-
-
+        for line in f:
+            pinglist.append(line.rstrip('\n'))
 
 def saveToFile():
     return

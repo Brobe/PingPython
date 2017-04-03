@@ -1,7 +1,15 @@
 import comms
 
 
-print("Starting PingPython...\nEnter input add delete clear list run exit help")
+print("PPPPPPPPP                        PPPPPPPPP           PP    PP\n"
+      "PPP     PP   PP                  PPP     PP          PP    PP\n"
+      "PPP     PPP      PP       PPPPP  PPP     PPP        PPPP   PPPPPP  PPPPPP  PP\n"
+      "PPP     PP   PP  PPPPP   PP  PP  PPP     PP  PP  PP  PP    PP  PP  PP  PP  PPPPP\n"
+      "PPPPPPPPP    PP  PP  PP   PPPPP  PPPPPPPPP    PPPP   PPPP  PP  PP  PPPPPP  PP  PP\n"
+      "PPP                          PP  PPP           PP\n"
+      "PPP                      PP  PP  PPP          PP\n"
+      "PPP                       PPPP   PPP         PP\n"
+      "\nStarting PingPython...\nEnter input add delete clear list run exit help")
 c = comms;
 
 # needs to be 'real' commandline
